@@ -2,12 +2,19 @@ using UnityEngine;
 //COLOCAR O SERIELIZE FIED
 public class Samurai : Personagem
 {
+     [ SerializeField ]
     private string nome;
+      [ SerializeField ]
     private int energia;
+       [ SerializeField ]
     private int velocidade_de_corte_veloz;
+        [ SerializeField ]
     private int numero_de_katana;
+         [ SerializeField ]
     private float velocidade;
+          [ SerializeField ]
     private int numero_de_pes;
+           [ SerializeField ]
     private int numero_de_maos;
     
     public void AtribuirNome(string nome)
