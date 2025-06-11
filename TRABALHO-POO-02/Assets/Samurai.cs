@@ -1,11 +1,11 @@
 using UnityEngine;
-
+//COLOCAR O SERIELIZE FIED
 public class Samurai : Personagem
 {
     private string nome;
-    private int energia = 5;
+    private int energia;
     private int velocidade_de_corte_veloz;
-    private int numero_de_katana = 1;
+    private int numero_de_katana;
     private float velocidade;
     private int numero_de_pes;
     private int numero_de_maos;
