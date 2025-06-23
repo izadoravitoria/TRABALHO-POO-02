@@ -1,6 +1,6 @@
 using Unity.VisualScripting;
 using UnityEngine;
-// Generico
+
 public class Personagem : MonoBehaviour
 {
     private string nome;

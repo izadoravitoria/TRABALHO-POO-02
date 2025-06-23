@@ -1,5 +1,5 @@
 using UnityEngine;
-//COLOCAR O SERIELIZE FIED
+
 public class Samurai : Personagem
 {
      [ SerializeField ]
